@@ -1,3 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
 header {
     background: #ebebeb;
     padding: 20px;
@@ -10,14 +21,39 @@ header {
     margin-bottom: 20px;
 }
 
+#head {
+    background: #ebebeb;
+    color: #777;
+}
+
+p {
+    background-color: #ebebeb;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #777;
+    
+    
+}
+
+
 #left {
     float: left;
-    background: blue;
+    background: #ebebeb;
     border: 1px solid #eee;
     padding: 20px;
     margin-bottom: 20px;
+    margin-right: 20px;
     width: 50%;
+    
+    
 }
+
+article {
+    background: #777;
+    color: #ebebeb;
+}
+
 
 #aside {
     float: left;
@@ -26,6 +62,7 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     width: 50%;
+
 }
 
 footer {
