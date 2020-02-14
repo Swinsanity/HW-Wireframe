@@ -4,30 +4,56 @@ body {
     background-color: #777;
     width: 960px;
     font-size: 18px;
+    text-align: center;
 
 }
 
 header {
     background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    
 
 }
 
 nav {
     background: #ebebeb;
+    padding: 20px;
+    margin-bottom: 20px;
     
 }
 
 section {
     background: #ebebeb;
-    
+   
 }
 
 aside {
     background: #ebebeb;
+    float: left;
     
 }
 
 footer {
     background: #ebebeb;
+    padding: 20px;
+    clear: both;
     
+}
+
+#left {
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+}
+
+article {
+    float: left;
+    
+}
+
+#arty {
+    font: #ebebeb;
+    background: #777;
 }
