@@ -5,9 +5,8 @@ body {
     width: 960px;
     font-size: 18px;
     text-align: center;
+    margin: auto
 }
-
-
 
 header {
     background: #ebebeb;
@@ -24,15 +23,15 @@ header {
 #head {
     background: #ebebeb;
     color: #777;
+    border: 1px solid #ebebeb;
+    padding: 20px;
 }
 
 p {
     background-color: #ebebeb;
-    padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     color: #777;
-    
+    border: 1px solid #ebebeb;
+    padding: 20px;
     
 }
 
@@ -40,7 +39,6 @@ p {
 #left {
     float: left;
     background: #ebebeb;
-    border: 1px solid #eee;
     padding: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -52,16 +50,18 @@ p {
 article {
     background: #777;
     color: #ebebeb;
+    border: 20px solid #777
 }
 
 
 #aside {
-    float: left;
-    background: green;
-    border: 1px solid #eee;
+    float: right;
+    background:#ebebeb;
     padding: 20px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 38%;
+    height: 368px;
+   
 
 }
 
